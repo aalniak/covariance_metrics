@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>RPE Plot Browser</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./styles.css">
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">GitHub Pages Static Viewer</p>
+          <h1>RPE Analysis Plot Browser</h1>
+          <p class="hero-text">
+            Browse high-resolution time-series plots for step RPE against selected
+            covariance metrics. Filter by sequence and metric, then inspect the PNG
+            or open the matching PDF.
+          </p>
+        </div>
+        <div class="hero-stats">
+          <div class="stat-card">
+            <span class="stat-label">Sequences</span>
+            <strong id="sequence-count">0</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Metrics</span>
+            <strong id="metric-count">0</strong>
+          </div>
+          <div class="stat-card">
+            <span class="stat-label">Plots</span>
+            <strong id="plot-count">0</strong>
+          </div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <aside class="control-panel">
+          <section class="panel-block">
+            <h2>Filters</h2>
+            <label class="field">
+              <span>Sequence</span>
+              <select id="sequence-select"></select>
+            </label>
+            <label class="field">
+              <span>Metric</span>
+              <select id="metric-select"></select>
+            </label>
+          </section>
+
+          <section class="panel-block">
+            <div class="panel-heading">
+              <h2>Matching Plots</h2>
+              <span id="match-count" class="badge">0</span>
+            </div>
+            <div id="plot-list" class="plot-list"></div>
+          </section>
+        </aside>
+
+        <section class="viewer-panel">
+          <div class="viewer-topbar">
+            <div>
+              <p id="viewer-kicker" class="viewer-kicker">Select a plot</p>
+              <h2 id="viewer-title">No plot selected</h2>
+            </div>
+            <div class="viewer-actions">
+              <a id="open-png" class="action-link" href="#" target="_blank" rel="noreferrer">Open PNG</a>
+              <a id="open-pdf" class="action-link strong" href="#" target="_blank" rel="noreferrer">Open PDF</a>
+            </div>
+          </div>
+
+          <div class="viewer-meta">
+            <div class="meta-chip">
+              <span class="meta-label">Sequence</span>
+              <strong id="meta-sequence">-</strong>
+            </div>
+            <div class="meta-chip">
+              <span class="meta-label">Metric</span>
+              <strong id="meta-metric">-</strong>
+            </div>
+            <div class="meta-chip">
+              <span class="meta-label">File</span>
+              <strong id="meta-file">-</strong>
+            </div>
+          </div>
+
+          <figure class="viewer-frame">
+            <img id="plot-image" alt="Selected analysis plot">
+          </figure>
+        </section>
+      </main>
+    </div>
+
+    <script src="./app.js"></script>
+  </body>
+</html>
