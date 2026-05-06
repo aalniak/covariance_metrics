@@ -1,121 +1,201 @@
 [
   {
-    "id": "spot_forest_hard__trace_position_vs_step_rpe_time",
+    "id": "spot_forest_hard__logdet_pose_vs_step_rpe_time",
     "sequence": "spot_forest_hard",
-    "metric": "trace_position",
-    "displayName": "spot_forest_hard — trace_position vs step RPE over time",
-    "png": "./assets/plots/spot_forest_hard__trace_position_vs_step_rpe_time.png",
-    "pdf": "./assets/plots/spot_forest_hard__trace_position_vs_step_rpe_time.pdf"
+    "metric": "logdet_pose",
+    "displayName": "spot_forest_hard \u2014 logdet_pose vs step RPE over time",
+    "png": "./assets/plots/spot_forest_hard__logdet_pose_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_forest_hard__logdet_pose_vs_step_rpe_time.pdf"
+  },
+  {
+    "id": "spot_forest_hard__sigma_py_vs_step_rpe_time",
+    "sequence": "spot_forest_hard",
+    "metric": "sigma_py",
+    "displayName": "spot_forest_hard \u2014 sigma_py vs step RPE over time",
+    "png": "./assets/plots/spot_forest_hard__sigma_py_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_forest_hard__sigma_py_vs_step_rpe_time.pdf"
   },
   {
     "id": "spot_forest_hard__sigma_tz_vs_step_rpe_time",
     "sequence": "spot_forest_hard",
     "metric": "sigma_tz",
-    "displayName": "spot_forest_hard — sigma_tz vs step RPE over time",
+    "displayName": "spot_forest_hard \u2014 sigma_tz vs step RPE over time",
     "png": "./assets/plots/spot_forest_hard__sigma_tz_vs_step_rpe_time.png",
     "pdf": "./assets/plots/spot_forest_hard__sigma_tz_vs_step_rpe_time.pdf"
+  },
+  {
+    "id": "spot_forest_hard__trace_position_vs_step_rpe_time",
+    "sequence": "spot_forest_hard",
+    "metric": "trace_position",
+    "displayName": "spot_forest_hard \u2014 trace_position vs step RPE over time",
+    "png": "./assets/plots/spot_forest_hard__trace_position_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_forest_hard__trace_position_vs_step_rpe_time.pdf"
   },
   {
     "id": "spot_forest_hard__trace_translation_vs_step_rpe_time",
     "sequence": "spot_forest_hard",
     "metric": "trace_translation",
-    "displayName": "spot_forest_hard — trace_translation vs step RPE over time",
+    "displayName": "spot_forest_hard \u2014 trace_translation vs step RPE over time",
     "png": "./assets/plots/spot_forest_hard__trace_translation_vs_step_rpe_time.png",
     "pdf": "./assets/plots/spot_forest_hard__trace_translation_vs_step_rpe_time.pdf"
   },
   {
-    "id": "spot_forest_road_1__trace_position_vs_step_rpe_time",
+    "id": "spot_forest_road_1__logdet_pose_vs_step_rpe_time",
     "sequence": "spot_forest_road_1",
-    "metric": "trace_position",
-    "displayName": "spot_forest_road_1 — trace_position vs step RPE over time",
-    "png": "./assets/plots/spot_forest_road_1__trace_position_vs_step_rpe_time.png",
-    "pdf": "./assets/plots/spot_forest_road_1__trace_position_vs_step_rpe_time.pdf"
+    "metric": "logdet_pose",
+    "displayName": "spot_forest_road_1 \u2014 logdet_pose vs step RPE over time",
+    "png": "./assets/plots/spot_forest_road_1__logdet_pose_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_forest_road_1__logdet_pose_vs_step_rpe_time.pdf"
+  },
+  {
+    "id": "spot_forest_road_1__sigma_py_vs_step_rpe_time",
+    "sequence": "spot_forest_road_1",
+    "metric": "sigma_py",
+    "displayName": "spot_forest_road_1 \u2014 sigma_py vs step RPE over time",
+    "png": "./assets/plots/spot_forest_road_1__sigma_py_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_forest_road_1__sigma_py_vs_step_rpe_time.pdf"
   },
   {
     "id": "spot_forest_road_1__sigma_tz_vs_step_rpe_time",
     "sequence": "spot_forest_road_1",
     "metric": "sigma_tz",
-    "displayName": "spot_forest_road_1 — sigma_tz vs step RPE over time",
+    "displayName": "spot_forest_road_1 \u2014 sigma_tz vs step RPE over time",
     "png": "./assets/plots/spot_forest_road_1__sigma_tz_vs_step_rpe_time.png",
     "pdf": "./assets/plots/spot_forest_road_1__sigma_tz_vs_step_rpe_time.pdf"
+  },
+  {
+    "id": "spot_forest_road_1__trace_position_vs_step_rpe_time",
+    "sequence": "spot_forest_road_1",
+    "metric": "trace_position",
+    "displayName": "spot_forest_road_1 \u2014 trace_position vs step RPE over time",
+    "png": "./assets/plots/spot_forest_road_1__trace_position_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_forest_road_1__trace_position_vs_step_rpe_time.pdf"
   },
   {
     "id": "spot_forest_road_1__trace_translation_vs_step_rpe_time",
     "sequence": "spot_forest_road_1",
     "metric": "trace_translation",
-    "displayName": "spot_forest_road_1 — trace_translation vs step RPE over time",
+    "displayName": "spot_forest_road_1 \u2014 trace_translation vs step RPE over time",
     "png": "./assets/plots/spot_forest_road_1__trace_translation_vs_step_rpe_time.png",
     "pdf": "./assets/plots/spot_forest_road_1__trace_translation_vs_step_rpe_time.pdf"
   },
   {
-    "id": "spot_indoor_building_loop__trace_position_vs_step_rpe_time",
+    "id": "spot_indoor_building_loop__logdet_pose_vs_step_rpe_time",
     "sequence": "spot_indoor_building_loop",
-    "metric": "trace_position",
-    "displayName": "spot_indoor_building_loop — trace_position vs step RPE over time",
-    "png": "./assets/plots/spot_indoor_building_loop__trace_position_vs_step_rpe_time.png",
-    "pdf": "./assets/plots/spot_indoor_building_loop__trace_position_vs_step_rpe_time.pdf"
+    "metric": "logdet_pose",
+    "displayName": "spot_indoor_building_loop \u2014 logdet_pose vs step RPE over time",
+    "png": "./assets/plots/spot_indoor_building_loop__logdet_pose_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_indoor_building_loop__logdet_pose_vs_step_rpe_time.pdf"
+  },
+  {
+    "id": "spot_indoor_building_loop__sigma_py_vs_step_rpe_time",
+    "sequence": "spot_indoor_building_loop",
+    "metric": "sigma_py",
+    "displayName": "spot_indoor_building_loop \u2014 sigma_py vs step RPE over time",
+    "png": "./assets/plots/spot_indoor_building_loop__sigma_py_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_indoor_building_loop__sigma_py_vs_step_rpe_time.pdf"
   },
   {
     "id": "spot_indoor_building_loop__sigma_tz_vs_step_rpe_time",
     "sequence": "spot_indoor_building_loop",
     "metric": "sigma_tz",
-    "displayName": "spot_indoor_building_loop — sigma_tz vs step RPE over time",
+    "displayName": "spot_indoor_building_loop \u2014 sigma_tz vs step RPE over time",
     "png": "./assets/plots/spot_indoor_building_loop__sigma_tz_vs_step_rpe_time.png",
     "pdf": "./assets/plots/spot_indoor_building_loop__sigma_tz_vs_step_rpe_time.pdf"
+  },
+  {
+    "id": "spot_indoor_building_loop__trace_position_vs_step_rpe_time",
+    "sequence": "spot_indoor_building_loop",
+    "metric": "trace_position",
+    "displayName": "spot_indoor_building_loop \u2014 trace_position vs step RPE over time",
+    "png": "./assets/plots/spot_indoor_building_loop__trace_position_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_indoor_building_loop__trace_position_vs_step_rpe_time.pdf"
   },
   {
     "id": "spot_indoor_building_loop__trace_translation_vs_step_rpe_time",
     "sequence": "spot_indoor_building_loop",
     "metric": "trace_translation",
-    "displayName": "spot_indoor_building_loop — trace_translation vs step RPE over time",
+    "displayName": "spot_indoor_building_loop \u2014 trace_translation vs step RPE over time",
     "png": "./assets/plots/spot_indoor_building_loop__trace_translation_vs_step_rpe_time.png",
     "pdf": "./assets/plots/spot_indoor_building_loop__trace_translation_vs_step_rpe_time.pdf"
   },
   {
-    "id": "spot_outdoor_day_penno_short_loop__trace_position_vs_step_rpe_time",
+    "id": "spot_outdoor_day_penno_short_loop__logdet_pose_vs_step_rpe_time",
     "sequence": "spot_outdoor_day_penno_short_loop",
-    "metric": "trace_position",
-    "displayName": "spot_outdoor_day_penno_short_loop — trace_position vs step RPE over time",
-    "png": "./assets/plots/spot_outdoor_day_penno_short_loop__trace_position_vs_step_rpe_time.png",
-    "pdf": "./assets/plots/spot_outdoor_day_penno_short_loop__trace_position_vs_step_rpe_time.pdf"
+    "metric": "logdet_pose",
+    "displayName": "spot_outdoor_day_penno_short_loop \u2014 logdet_pose vs step RPE over time",
+    "png": "./assets/plots/spot_outdoor_day_penno_short_loop__logdet_pose_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_outdoor_day_penno_short_loop__logdet_pose_vs_step_rpe_time.pdf"
+  },
+  {
+    "id": "spot_outdoor_day_penno_short_loop__sigma_py_vs_step_rpe_time",
+    "sequence": "spot_outdoor_day_penno_short_loop",
+    "metric": "sigma_py",
+    "displayName": "spot_outdoor_day_penno_short_loop \u2014 sigma_py vs step RPE over time",
+    "png": "./assets/plots/spot_outdoor_day_penno_short_loop__sigma_py_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_outdoor_day_penno_short_loop__sigma_py_vs_step_rpe_time.pdf"
   },
   {
     "id": "spot_outdoor_day_penno_short_loop__sigma_tz_vs_step_rpe_time",
     "sequence": "spot_outdoor_day_penno_short_loop",
     "metric": "sigma_tz",
-    "displayName": "spot_outdoor_day_penno_short_loop — sigma_tz vs step RPE over time",
+    "displayName": "spot_outdoor_day_penno_short_loop \u2014 sigma_tz vs step RPE over time",
     "png": "./assets/plots/spot_outdoor_day_penno_short_loop__sigma_tz_vs_step_rpe_time.png",
     "pdf": "./assets/plots/spot_outdoor_day_penno_short_loop__sigma_tz_vs_step_rpe_time.pdf"
+  },
+  {
+    "id": "spot_outdoor_day_penno_short_loop__trace_position_vs_step_rpe_time",
+    "sequence": "spot_outdoor_day_penno_short_loop",
+    "metric": "trace_position",
+    "displayName": "spot_outdoor_day_penno_short_loop \u2014 trace_position vs step RPE over time",
+    "png": "./assets/plots/spot_outdoor_day_penno_short_loop__trace_position_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_outdoor_day_penno_short_loop__trace_position_vs_step_rpe_time.pdf"
   },
   {
     "id": "spot_outdoor_day_penno_short_loop__trace_translation_vs_step_rpe_time",
     "sequence": "spot_outdoor_day_penno_short_loop",
     "metric": "trace_translation",
-    "displayName": "spot_outdoor_day_penno_short_loop — trace_translation vs step RPE over time",
+    "displayName": "spot_outdoor_day_penno_short_loop \u2014 trace_translation vs step RPE over time",
     "png": "./assets/plots/spot_outdoor_day_penno_short_loop__trace_translation_vs_step_rpe_time.png",
     "pdf": "./assets/plots/spot_outdoor_day_penno_short_loop__trace_translation_vs_step_rpe_time.pdf"
   },
   {
-    "id": "spot_outdoor_day_skatepark_1__trace_position_vs_step_rpe_time",
+    "id": "spot_outdoor_day_skatepark_1__logdet_pose_vs_step_rpe_time",
     "sequence": "spot_outdoor_day_skatepark_1",
-    "metric": "trace_position",
-    "displayName": "spot_outdoor_day_skatepark_1 — trace_position vs step RPE over time",
-    "png": "./assets/plots/spot_outdoor_day_skatepark_1__trace_position_vs_step_rpe_time.png",
-    "pdf": "./assets/plots/spot_outdoor_day_skatepark_1__trace_position_vs_step_rpe_time.pdf"
+    "metric": "logdet_pose",
+    "displayName": "spot_outdoor_day_skatepark_1 \u2014 logdet_pose vs step RPE over time",
+    "png": "./assets/plots/spot_outdoor_day_skatepark_1__logdet_pose_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_outdoor_day_skatepark_1__logdet_pose_vs_step_rpe_time.pdf"
+  },
+  {
+    "id": "spot_outdoor_day_skatepark_1__sigma_py_vs_step_rpe_time",
+    "sequence": "spot_outdoor_day_skatepark_1",
+    "metric": "sigma_py",
+    "displayName": "spot_outdoor_day_skatepark_1 \u2014 sigma_py vs step RPE over time",
+    "png": "./assets/plots/spot_outdoor_day_skatepark_1__sigma_py_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_outdoor_day_skatepark_1__sigma_py_vs_step_rpe_time.pdf"
   },
   {
     "id": "spot_outdoor_day_skatepark_1__sigma_tz_vs_step_rpe_time",
     "sequence": "spot_outdoor_day_skatepark_1",
     "metric": "sigma_tz",
-    "displayName": "spot_outdoor_day_skatepark_1 — sigma_tz vs step RPE over time",
+    "displayName": "spot_outdoor_day_skatepark_1 \u2014 sigma_tz vs step RPE over time",
     "png": "./assets/plots/spot_outdoor_day_skatepark_1__sigma_tz_vs_step_rpe_time.png",
     "pdf": "./assets/plots/spot_outdoor_day_skatepark_1__sigma_tz_vs_step_rpe_time.pdf"
+  },
+  {
+    "id": "spot_outdoor_day_skatepark_1__trace_position_vs_step_rpe_time",
+    "sequence": "spot_outdoor_day_skatepark_1",
+    "metric": "trace_position",
+    "displayName": "spot_outdoor_day_skatepark_1 \u2014 trace_position vs step RPE over time",
+    "png": "./assets/plots/spot_outdoor_day_skatepark_1__trace_position_vs_step_rpe_time.png",
+    "pdf": "./assets/plots/spot_outdoor_day_skatepark_1__trace_position_vs_step_rpe_time.pdf"
   },
   {
     "id": "spot_outdoor_day_skatepark_1__trace_translation_vs_step_rpe_time",
     "sequence": "spot_outdoor_day_skatepark_1",
     "metric": "trace_translation",
-    "displayName": "spot_outdoor_day_skatepark_1 — trace_translation vs step RPE over time",
+    "displayName": "spot_outdoor_day_skatepark_1 \u2014 trace_translation vs step RPE over time",
     "png": "./assets/plots/spot_outdoor_day_skatepark_1__trace_translation_vs_step_rpe_time.png",
     "pdf": "./assets/plots/spot_outdoor_day_skatepark_1__trace_translation_vs_step_rpe_time.pdf"
   }
